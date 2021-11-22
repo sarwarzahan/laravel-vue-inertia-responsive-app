@@ -1,0 +1,19 @@
+body,html{
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+.background {
+    background-image: url("/images/bg-pattern.png");
+}
+.alert li {
+    font-size: 14px;
+}
+.logo {
+    width: 98px;
+    height: 38px;
+}
+.color-cool-gray {
+    color: #303538;
+}
+.color-mock-green {
+    color: #008980;
+}
