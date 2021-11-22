@@ -1,6 +1,6 @@
 <template>
     <div class="row justify-content-center align-items-center">
-        <div class="col-md-6 shadow-sm p-4 bg-white rounded">
+        <div class="col-md-5 shadow-sm p-4 bg-white rounded">
             <div class="form-row color-cool-gray font-weight-600 font-size-12">
                 <div class="col">
                     <p class="text-uppercase">Seller Application</p>
