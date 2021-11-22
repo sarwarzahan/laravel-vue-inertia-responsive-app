@@ -1,0 +1,32 @@
+body,html{
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+.font-weight-600 {
+   font-weight: 600; 
+}
+.font-weight-400 {
+   font-weight: 400; 
+}
+.font-size-12 {
+   font-size: .75rem;
+}
+.font-size-14 {
+   font-size: .875rem;
+}
+.font-size-16 {
+   font-size: 1rem;
+}
+.font-size-18 {
+   font-size: 1.125rem;
+}
+.background {
+    background-image: url("/images/bg-pattern.png");
+}
+.logo {
+    width: 98px;
+    height: 38px;
+}
+.custom-control-input:checked~.custom-control-label::before {
+  border-color: #008980 !important;
+  background-color: #008980 !important;
+}
