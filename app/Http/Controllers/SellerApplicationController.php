@@ -107,7 +107,7 @@ class SellerApplicationController extends Controller
             'businessMarketing' => 'required|integer'
         ];
         $messages = [
-            'portfolioLink.unique' => 'The Portfolio Link already used by another seller'
+            'portfolioLink.unique' => 'The Portfolio Link is already used by another seller.'
         ];
         $this->validate($request, $data, $messages);
     }
