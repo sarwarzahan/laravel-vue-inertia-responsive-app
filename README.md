@@ -1,14 +1,14 @@
 # This is a single page responsive app built with Laravel 8.72, Vue.js 3.2, Inertia 0.10 and Bootstrap 4. 
 
 ## Project approach
-Laravel is used to implement back-end business logic and to interact with the database. Inertia.js with Vue.js helped to build single page application. Here Inertia.js interacts with back-end routing and controllers. Bootstrap Sass helps with responsive layout and override default design.
+Laravel is used to implement back-end business logic and to interact with the database. Inertia.js with Vue.js helped to build the front-end part of the single page application. Here Inertia.js interacts with the back-end routing and controllers. Bootstrap Sass helps with responsive layout and override default design.
 
 ## User stories
-- User can view the form appropriately on a variety of devices
-- User can submit a portfolio successfully and see appropriate records saved to a database
-- User cannot submit the same portfolio link twice, but instead am presented with an error message
-- User cannot submit the form with incomplete data (i.e. only step one, but not step two data)
-- User am directed to a confirmation screen only after the form has been successfully submitted
+- User can view the form appropriately on a variety of devices.
+- User can submit a portfolio successfully and see appropriate records saved to a database.
+- User cannot submit the same portfolio link twice, but instead is presented with an error message.
+- User cannot submit the form with incomplete data (i.e. only step one, but not step two data).
+- User is directed to a confirmation screen only after the form has been successfully submitted.
 
 ## Database Design
 **shop_categories** table store categories for shop. **seller_applications** table store user application info. **shop_categories** has **one to many** relation with **seller_applications**. **application_answer_options** table stores different answer options for questions asked to the seller. **application_answers** table store seller's answers. This is a relational table which maintain **many to many** relation between **seller_applications** and **application_answer_options** tables.
