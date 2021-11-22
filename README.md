@@ -9,7 +9,7 @@ To describe the project approach Laravel is used to implement back-end business 
 - User am directed to a confirmation screen only after the form has been successfully submitted
 
 ## Database Design
-**shop_categories** table store categories for shop. **seller_applications** table store user application info. **shop_categories** has **one to many** relation with **seller_applications**. **application_answer_options** table stores different answer options for questions asked to the seller. **application_answers** table store seller's answers. This is a relational which maintain **many to many** relation between **seller_applications** and **application_answer_options**.
+**shop_categories** table store categories for shop. **seller_applications** table store user application info. **shop_categories** has **one to many** relation with **seller_applications**. **application_answer_options** table stores different answer options for questions asked to the seller. **application_answers** table store seller's answers. This is a relational table which maintain **many to many** relation between **seller_applications** and **application_answer_options**.
 
 ## Installation Prerequisite
 ----------------------
